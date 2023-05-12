@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    textarea {
+      width: 50%;
+      resize: vertical;
+    }
+  }
