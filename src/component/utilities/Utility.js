@@ -4,7 +4,7 @@ const apiArray = [
         id: 1,
         name: "Ecommerce site",
         img: require("./img/ecommerce.png"),
-        link: "https://grandeclipse.netlify.app",
+        link: "https://grandeclipse.vercel.app",
         link2:"https://github.com/grand282/react-ecommerce-eclipse.git",
         description: "An ecommerce website of clothes,gadgets and accessories which help people buy the things they need fast and efficient",
         tech: {
