@@ -34,7 +34,7 @@ function Navbar() {
                     <NavLink style={{ textDecoration: 'none', color: 'blue'}} to="/contact">Contact</NavLink>
                   </Typography>
                   <Typography ml="10px">
-                  <Link style={{ textDecoration: 'none', color: 'blue'}} to="https:github.com/grand282">
+                  <Link style={{ textDecoration: 'none', color: 'blue'}} to="https://github.com/grand282">
                   <GitHubIcon />
                   </Link>
                   </Typography>

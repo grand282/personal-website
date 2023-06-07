@@ -21,12 +21,10 @@ function projects() {
             columnGap={2}
             rowGap={2}>
             {apiArray.map((item, idx) =>(
-              <Card key={idx} sx={{ maxWidth: 345, maxHeight: 540 }}>
+              <Card key={idx} sx={{ width: 500, height: 400, marginLeft: '10px',marginTop: '10px' }}>
               <CardMedia
                 component="img"
                 alt={item.name}
-                height="150"
-                width="200"
                 image={item.img}
               />
               <CardContent>

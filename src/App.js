@@ -7,11 +7,14 @@ import Skills from "./component/Skills";
 import { Routes, Route } from 'react-router-dom';
 import Home from "./component/Home";
 import Contact from "./component/Contact";
+import { height } from "@mui/system";
 
 function App() {
   return (
     <div style={{
-      backgroundColor: 'lightgrey'
+      backgroundColor: 'lightgrey',
+      width: '100vw',
+      height: '100vh'
     }}
     >
       <Navbar />
