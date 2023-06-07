@@ -7,22 +7,21 @@ import { apiArray } from './utilities/Utility';
 function projects() {
   return (
     <div>
-      <Box>
+      <Box bgcolor='lightgrey'>
         <Typography textAlign="center" color="error" variant="h2">
           Projects
         </Typography>
         <Box mt={4} pb={6}>
-        <Container>
+        
           <Grid container gap={4} columns={{ xs: 1, sm: 1, md: 2 }}>
            <Container>
             <Stack 
-            sx={{marginLeft: '10px'}}
-            direction={{ xs: 'column', sm: 'column', md: 'row' }}
-            alignItems="center"
-            columnGap={4}
-            rowGap={4}>
+            direction= 'column'
+            //alignItems="center"
+            columnGap={2}
+            rowGap={2}>
             {apiArray.map((item, idx) =>(
-              <Card key={idx} sx={{ width: 500, height: 400 }}>
+              <Card key={idx} sx={{ width: "80%" }}>
               <CardMedia
                 component="img"
                 alt={item.name}
@@ -65,9 +64,9 @@ function projects() {
              </Card>
             ))}
             </Stack>
-            </Container> 
+            </Container>
           </Grid>
-          </Container>
+        
         </Box>
       </Box>
     </div>
