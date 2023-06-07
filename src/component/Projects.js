@@ -16,12 +16,13 @@ function projects() {
           <Grid container gap={4} columns={{ xs: 1, sm: 1, md: 2 }}>
            <Container>
             <Stack 
+            sx={{marginLeft: '10px'}}
             direction={{ xs: 'column', sm: 'column', md: 'row' }}
             alignItems="center"
-            columnGap={2}
-            rowGap={2}>
+            columnGap={4}
+            rowGap={4}>
             {apiArray.map((item, idx) =>(
-              <Card key={idx} sx={{ width: 500, height: 400, marginLeft: '10px',marginTop: '10px' }}>
+              <Card key={idx} sx={{ width: 500, height: 400 }}>
               <CardMedia
                 component="img"
                 alt={item.name}
