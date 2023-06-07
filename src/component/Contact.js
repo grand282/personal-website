@@ -26,7 +26,7 @@ import { useForm, ValidationError } from '@formspree/react';
       </Typography>
       <Stack mt='10px' ml='46%' direction='row'>
       <Typography ml="10px">
-      <Link style={{ textDecoration: 'none', color: 'blue'}} to="https:github.com/grand282">
+      <Link style={{ textDecoration: 'none', color: 'blue'}} to="https://github.com/grand282">
       <GitHubIcon />
       </Link>
       </Typography>
